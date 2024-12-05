@@ -167,3 +167,6 @@ data/**
 poetry.lock
 .isort.cfg
 
+# project files
+src/inputs/
+!src/inputs/.gitkeep
