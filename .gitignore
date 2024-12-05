@@ -168,5 +168,5 @@ poetry.lock
 .isort.cfg
 
 # project files
-src/inputs/
-!src/inputs/.gitkeep
+src/advent_of_code_2024/inputs/
+!src/advent_of_code_2024/inputs/.gitkeep

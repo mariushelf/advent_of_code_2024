@@ -33,11 +33,11 @@ tox = "^4.0.0"
 
 [tool.ruff]
 select = [
-    "ANN",  # flake8-annotations
+#    "ANN",  # flake8-annotations
     "E",  # flake8
     "F",  # flake8
     "I",  # isort
-    "D",  # pydocstyle
+#    "D",  # pydocstyle
     "S",  # flake8-bandit
     "NPY",  # numpy-specific rules
     "RUF",  # ruff specific rules
