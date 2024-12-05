@@ -45,7 +45,3 @@ jobs:
       - name: Run pytest
         run: |
           poetry run pytest --cov-report=xml --cov=advent_of_code_2024 tests
-      - name: "Upload coverage to Codecov"
-        uses: codecov/codecov-action@v3
-        with:
-          fail_ci_if_error: true
